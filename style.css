@@ -969,3 +969,32 @@ margin-bottom: 20px;
     color: #6b7782;
     font-size: 13px;
 }
+.publication-status {
+    margin-top: 10px;
+    color: #2867a6;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.contribution-note {
+    margin-top: 8px;
+    color: #6b7782;
+    font-size: 13px;
+}
+
+.publication-profile-box {
+    margin-top: 60px;
+    padding: 30px;
+    background: #f6f8fa;
+    border-left: 4px solid #2867a6;
+}
+
+.publication-profile-box h3 {
+    color: #1a2d3f;
+    margin-bottom: 10px;
+}
+
+.publication-profile-box p {
+    color: #66727d;
+    margin-bottom: 20px;
+}
