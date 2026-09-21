@@ -1,0 +1,755 @@
+/* =========================================
+Muhammad Asad Iqbal — Academic Homepage
+========================================= */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+html {
+scroll-behavior: smooth;
+}
+
+body {
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+Roboto, Helvetica, Arial, sans-serif;
+
+```
+color: #17202a;
+background: #ffffff;
+line-height: 1.7;
+```
+
+}
+
+/* =========================================
+GENERAL
+========================================= */
+
+.container {
+width: min(1120px, 90%);
+margin: auto;
+}
+
+.section {
+padding: 90px 0;
+}
+
+.light-section {
+background: #f6f8fa;
+}
+
+.section-label {
+color: #2867a6;
+font-size: 13px;
+font-weight: 700;
+letter-spacing: 2px;
+margin-bottom: 12px;
+}
+
+.section h2 {
+font-size: 38px;
+line-height: 1.25;
+margin-bottom: 25px;
+color: #142333;
+}
+
+.section-intro {
+max-width: 760px;
+font-size: 18px;
+color: #5d6873;
+margin-bottom: 45px;
+}
+
+/* =========================================
+NAVIGATION
+========================================= */
+
+.navbar {
+position: sticky;
+top: 0;
+z-index: 1000;
+
+```
+background: rgba(255, 255, 255, 0.96);
+border-bottom: 1px solid #e5e9ed;
+
+backdrop-filter: blur(10px);
+```
+
+}
+
+.nav-container {
+width: min(1120px, 90%);
+margin: auto;
+
+```
+min-height: 70px;
+
+display: flex;
+align-items: center;
+justify-content: space-between;
+```
+
+}
+
+.logo {
+color: #142333;
+text-decoration: none;
+font-size: 18px;
+font-weight: 700;
+}
+
+.nav-links {
+display: flex;
+gap: 28px;
+}
+
+.nav-links a {
+color: #53616d;
+text-decoration: none;
+font-size: 14px;
+font-weight: 500;
+}
+
+.nav-links a:hover {
+color: #2867a6;
+}
+
+/* =========================================
+HERO
+========================================= */
+
+.hero {
+background: #f7f9fb;
+border-bottom: 1px solid #e7ebef;
+}
+
+.hero-container {
+width: min(1120px, 90%);
+margin: auto;
+
+```
+min-height: 650px;
+
+display: flex;
+align-items: center;
+```
+
+}
+
+.hero-text {
+max-width: 900px;
+}
+
+.eyebrow {
+color: #2867a6;
+font-size: 15px;
+font-weight: 700;
+letter-spacing: 1.5px;
+text-transform: uppercase;
+
+```
+margin-bottom: 18px;
+```
+
+}
+
+.hero h1 {
+font-size: clamp(44px, 6vw, 72px);
+line-height: 1.05;
+letter-spacing: -2px;
+color: #132333;
+
+```
+margin-bottom: 22px;
+```
+
+}
+
+.hero h2 {
+max-width: 850px;
+
+```
+font-size: 24px;
+line-height: 1.4;
+font-weight: 500;
+
+color: #3e5365;
+
+margin-bottom: 25px;
+```
+
+}
+
+.hero-description {
+max-width: 780px;
+
+```
+font-size: 18px;
+color: #5c6975;
+
+margin-bottom: 35px;
+```
+
+}
+
+/* =========================================
+BUTTONS
+========================================= */
+
+.hero-buttons {
+display: flex;
+gap: 14px;
+flex-wrap: wrap;
+
+```
+margin-bottom: 28px;
+```
+
+}
+
+.button {
+display: inline-block;
+
+```
+padding: 12px 22px;
+
+border-radius: 6px;
+
+text-decoration: none;
+
+font-size: 14px;
+font-weight: 600;
+
+transition: 0.2s ease;
+```
+
+}
+
+.button.primary {
+background: #2867a6;
+color: white;
+}
+
+.button.primary:hover {
+background: #1e527f;
+}
+
+.button.secondary {
+background: white;
+color: #2867a6;
+
+```
+border: 1px solid #b8c6d2;
+```
+
+}
+
+.button.secondary:hover {
+border-color: #2867a6;
+}
+
+/* =========================================
+PROFILE LINKS
+========================================= */
+
+.profile-links {
+display: flex;
+flex-wrap: wrap;
+gap: 22px;
+}
+
+.profile-links a {
+color: #53616d;
+text-decoration: none;
+font-size: 14px;
+font-weight: 500;
+}
+
+.profile-links a:hover {
+color: #2867a6;
+}
+
+/* =========================================
+ABOUT
+========================================= */
+
+.about-grid {
+display: grid;
+grid-template-columns: 2fr 1fr;
+gap: 70px;
+
+```
+align-items: start;
+```
+
+}
+
+.about-grid p {
+color: #56636e;
+font-size: 17px;
+
+```
+margin-bottom: 20px;
+```
+
+}
+
+.about-box {
+padding: 28px;
+
+```
+background: #f6f8fa;
+
+border-left: 4px solid #2867a6;
+```
+
+}
+
+.about-box h3 {
+margin-bottom: 15px;
+color: #172b3d;
+}
+
+.about-box p {
+font-size: 15px;
+}
+
+/* =========================================
+RESEARCH CARDS
+========================================= */
+
+.research-grid {
+display: grid;
+
+```
+grid-template-columns: repeat(2, 1fr);
+
+gap: 22px;
+```
+
+}
+
+.research-card {
+background: white;
+
+```
+padding: 35px;
+
+border: 1px solid #e2e7eb;
+
+transition: 0.2s ease;
+```
+
+}
+
+.research-card:hover {
+transform: translateY(-3px);
+
+```
+border-color: #b8c9d8;
+
+box-shadow: 0 8px 25px rgba(30, 50, 70, 0.06);
+```
+
+}
+
+.research-number {
+color: #2867a6;
+
+```
+font-size: 13px;
+font-weight: 700;
+
+margin-bottom: 18px;
+```
+
+}
+
+.research-card h3 {
+font-size: 23px;
+margin-bottom: 14px;
+color: #182b3d;
+}
+
+.research-card p {
+color: #64717c;
+}
+
+/* =========================================
+PROJECTS
+========================================= */
+
+.project {
+display: grid;
+
+```
+grid-template-columns: 100px 1fr;
+
+gap: 30px;
+
+padding: 30px 0;
+
+border-bottom: 1px solid #e3e7ea;
+```
+
+}
+
+.project:first-of-type {
+border-top: 1px solid #e3e7ea;
+}
+
+.project-year {
+color: #2867a6;
+
+```
+font-weight: 700;
+font-size: 15px;
+```
+
+}
+
+.project h3 {
+color: #1a2d3f;
+
+```
+font-size: 22px;
+
+margin-bottom: 10px;
+```
+
+}
+
+.project p {
+color: #606d78;
+
+```
+max-width: 780px;
+```
+
+}
+
+.project-status {
+margin-top: 10px;
+
+```
+font-size: 14px;
+
+color: #2867a6 !important;
+
+font-weight: 600;
+```
+
+}
+
+/* =========================================
+PUBLICATIONS
+========================================= */
+
+.publication {
+display: grid;
+
+```
+grid-template-columns: 80px 1fr;
+
+gap: 30px;
+
+padding: 28px 0;
+
+border-bottom: 1px solid #dde3e8;
+```
+
+}
+
+.publication-year {
+color: #2867a6;
+
+```
+font-size: 15px;
+
+font-weight: 700;
+```
+
+}
+
+.publication h3 {
+font-size: 19px;
+
+```
+line-height: 1.45;
+
+color: #1b2d3d;
+
+margin-bottom: 8px;
+```
+
+}
+
+.publication p {
+color: #66727d;
+
+```
+font-size: 15px;
+```
+
+}
+
+.publication-more {
+margin-top: 35px;
+}
+
+/* =========================================
+EDUCATION TIMELINE
+========================================= */
+
+.timeline {
+border-left: 2px solid #dce3e9;
+
+```
+padding-left: 35px;
+```
+
+}
+
+.timeline-item {
+display: grid;
+
+```
+grid-template-columns: 120px 1fr;
+
+gap: 30px;
+
+position: relative;
+
+padding-bottom: 40px;
+```
+
+}
+
+.timeline-item::before {
+content: "";
+
+```
+width: 10px;
+height: 10px;
+
+background: #2867a6;
+
+border-radius: 50%;
+
+position: absolute;
+
+left: -41px;
+top: 8px;
+```
+
+}
+
+.timeline-item > span {
+color: #2867a6;
+
+```
+font-size: 14px;
+
+font-weight: 700;
+```
+
+}
+
+.timeline-item h3 {
+color: #1a2d3f;
+
+```
+margin-bottom: 5px;
+```
+
+}
+
+.timeline-item p {
+color: #66727d;
+
+```
+margin-bottom: 8px;
+```
+
+}
+
+/* =========================================
+CONTACT
+========================================= */
+
+.contact-section {
+padding: 100px 0;
+
+```
+background: #172b3d;
+
+color: white;
+```
+
+}
+
+.contact-section .container {
+max-width: 900px;
+margin-left: max(5%, calc((100% - 1120px) / 2));
+}
+
+.contact-section .section-label {
+color: #9fc5e3;
+}
+
+.contact-section h2 {
+font-size: 40px;
+
+```
+line-height: 1.25;
+
+margin-bottom: 25px;
+```
+
+}
+
+.contact-section p {
+max-width: 760px;
+
+```
+color: #c5d0d9;
+
+font-size: 17px;
+
+margin-bottom: 30px;
+```
+
+}
+
+.contact-links {
+display: flex;
+
+```
+flex-wrap: wrap;
+
+gap: 25px;
+```
+
+}
+
+.contact-links a {
+color: white;
+
+```
+text-decoration: none;
+
+font-weight: 600;
+
+border-bottom: 1px solid #8199ad;
+
+padding-bottom: 3px;
+```
+
+}
+
+.contact-links a:hover {
+border-color: white;
+}
+
+/* =========================================
+FOOTER
+========================================= */
+
+footer {
+background: #102231;
+
+```
+color: #8e9eab;
+
+text-align: center;
+
+padding: 25px;
+
+font-size: 13px;
+```
+
+}
+
+/* =========================================
+MOBILE
+========================================= */
+
+@media (max-width: 800px) {
+
+```
+.nav-container {
+    flex-direction: column;
+
+    padding: 18px 0;
+}
+
+.nav-links {
+    gap: 15px;
+
+    margin-top: 12px;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+}
+
+.hero-container {
+    min-height: 550px;
+}
+
+.hero h1 {
+    font-size: 46px;
+
+    letter-spacing: -1px;
+}
+
+.hero h2 {
+    font-size: 20px;
+}
+
+.about-grid {
+    grid-template-columns: 1fr;
+
+    gap: 35px;
+}
+
+.research-grid {
+    grid-template-columns: 1fr;
+}
+
+.project {
+    grid-template-columns: 1fr;
+
+    gap: 8px;
+}
+
+.publication {
+    grid-template-columns: 1fr;
+
+    gap: 5px;
+}
+
+.timeline-item {
+    grid-template-columns: 1fr;
+
+    gap: 5px;
+}
+
+.section {
+    padding: 65px 0;
+}
+
+.section h2 {
+    font-size: 32px;
+}
+
+.contact-section h2 {
+    font-size: 32px;
+}
+```
+
+}
