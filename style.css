@@ -696,7 +696,24 @@ MOBILE
 ========================================= */
 
 @media (max-width: 800px) {
+.hero-container {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
 
+.hero-photo {
+    margin-right: 0;
+    margin-bottom: 30px;
+}
+
+.profile-links {
+    justify-content: center;
+}
+
+.hero-buttons {
+    justify-content: center;
+}
 ```
 .nav-container {
     flex-direction: column;
