@@ -787,3 +787,174 @@ MOBILE
 ```
 
 }
+/* =========================================
+PUBLICATIONS PAGE
+========================================= */
+
+.page-header {
+background: #f6f8fa;
+border-bottom: 1px solid #e3e8ec;
+padding: 80px 0;
+}
+
+.page-header h1 {
+font-size: 48px;
+line-height: 1.2;
+color: #142333;
+margin-bottom: 18px;
+}
+
+.page-header p:last-child {
+max-width: 760px;
+color: #64717c;
+font-size: 18px;
+}
+
+.publication-year-heading {
+font-size: 30px;
+color: #142333;
+
+```
+margin-top: 15px;
+margin-bottom: 10px;
+
+padding-bottom: 12px;
+
+border-bottom: 2px solid #2867a6;
+```
+
+}
+
+.publication-full {
+display: grid;
+
+```
+grid-template-columns: 70px 1fr;
+
+gap: 25px;
+
+padding: 32px 0;
+
+border-bottom: 1px solid #e0e5e9;
+```
+
+}
+
+.publication-full-year {
+color: #2867a6;
+
+```
+font-size: 13px;
+
+font-weight: 700;
+```
+
+}
+
+.publication-full h3 {
+color: #1a2d3f;
+
+```
+font-size: 21px;
+
+line-height: 1.45;
+
+margin-bottom: 12px;
+```
+
+}
+
+.publication-full .authors {
+color: #53616d;
+
+```
+font-size: 15px;
+
+margin-bottom: 5px;
+```
+
+}
+
+.publication-full .journal {
+color: #66727d;
+
+```
+font-size: 15px;
+```
+
+}
+
+.publication-links {
+display: flex;
+
+```
+gap: 18px;
+
+margin-top: 15px;
+```
+
+}
+
+.small-link {
+color: #2867a6;
+
+```
+text-decoration: none;
+
+font-size: 13px;
+
+font-weight: 600;
+```
+
+}
+
+.small-link:hover {
+text-decoration: underline;
+}
+
+.publication-profile-box {
+margin-top: 60px;
+
+```
+padding: 30px;
+
+background: #f6f8fa;
+
+border-left: 4px solid #2867a6;
+```
+
+}
+
+.publication-profile-box h3 {
+color: #1a2d3f;
+
+```
+margin-bottom: 10px;
+```
+
+}
+
+.publication-profile-box p {
+color: #66727d;
+
+```
+margin-bottom: 20px;
+```
+
+}
+
+@media (max-width: 800px) {
+
+```
+.page-header h1 {
+    font-size: 38px;
+}
+
+.publication-full {
+    grid-template-columns: 1fr;
+
+    gap: 5px;
+}
+```
+
+}
