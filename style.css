@@ -958,3 +958,14 @@ margin-bottom: 20px;
 ```
 
 }
+.publication-status {
+    margin-top: 10px;
+    color: #2867a6;
+    font-size: 14px;
+}
+
+.contribution-note {
+    margin-top: 8px;
+    color: #6b7782;
+    font-size: 13px;
+}
